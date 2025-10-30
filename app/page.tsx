@@ -1166,7 +1166,7 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       <section aria-labelledby="visit-heading" className="py-20 px-4 bg-card">
-        <div className="max-w-4xl mx-auto text-center relative">
+        <div className="max-w-4xl mx-auto text-center">
           <h2 id="visit-heading" className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-balance">
             Come Visit Us at Edward's
           </h2>
