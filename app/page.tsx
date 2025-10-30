@@ -32,7 +32,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
           <a href="/" onClick={handleScrollToTop} className="h-8" aria-label="Edward's Pipe & Tobacco Home">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HpxPFQUS0FCpA8iIF9ylWEIxZ1FCqB.webp"
+              src="/images/design-mode/logo.webp"
               alt="Edward's Logo"
               width={32}
               height={32}
@@ -165,12 +165,12 @@ export default function Home() {
       {/* Hero Section */}
       <section
         aria-label="Welcome to Edward's Pipe & Tobacco"
-        className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20"
+        className="relative min-h-[640px] lg:min-h-screen flex flex-col items-center justify-center px-4 py-20"
       >
         {/* Background Image */}
         <div className="absolute inset-0 z-0" aria-hidden="true">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cash-register-counter-0SHloWSMFEia3POBmeHScW5biok8ur.webp"
+            src="/images/design-mode/cash-register-counter.webp"
             alt="Edward's Pipe & Tobacco Store"
             fill
             width={1200}
@@ -183,9 +183,9 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
-          <div className="mb-4 md:mb-8">
+          <div className="mb-4 lg:mb-8">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HpxPFQUS0FCpA8iIF9ylWEIxZ1FCqB.webp"
+              src="/images/design-mode/logo.webp"
               alt="Edward's Pipe & Tobacco Logo"
               width={280}
               height={280}
@@ -194,11 +194,11 @@ export default function Home() {
             />
           </div>
 
-          <h1 className="font-serif text-4xl md:text-5xl text-white leading-tight text-balance mb-4 md:mb-8">
+          <h1 className="font-serif text-4xl md:text-5xl text-white leading-tight text-balance mb-4 lg:mb-8">
             A Tampa Landmark Since 1960
           </h1>
 
-          <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto text-pretty mb-4 md:mb-8">
+          <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto text-pretty mb-4 lg:mb-8">
             Supplying Pipes, Tobacco, Cigars, Smokers Accessories and Gift Items for over six decades
           </p>
 
@@ -251,7 +251,7 @@ export default function Home() {
             </div>
             <div className="relative h-[500px] rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-epcarrillo-encore-i6HgkimnIJj7JHrSSMOwNHDAZEU4AW.webp"
+                src="/images/design-mode/cigar-epcarrillo-encore.webp"
                 alt="EP Carrillo Encore Premium Cigar"
                 fill
                 className="object-cover"
@@ -280,7 +280,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/manny-birthday-AuN4VR5yhmBkSWgVrPp3T1l4Me5LHk.webp"
+                src="/images/design-mode/manny-birthday.webp"
                 alt="Community gathering at Edward's"
                 fill
                 className="object-cover"
@@ -288,7 +288,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/patio-tony-jimmy-pEu5pDE1UmkrJ5dvtd8N8WIiEPXWRg.webp"
+                src="/images/design-mode/patio-tony-jimmy.webp"
                 alt="Relaxing on the patio"
                 fill
                 className="object-cover"
@@ -324,7 +324,7 @@ export default function Home() {
             <div className="space-y-4 text-center">
               <div className="relative h-64 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/edwards-pipes-wall-TiZpZkn4r95xM0ZgvbspmDgTmRnKSh.webp"
+                  src="/images/design-mode/edwards-pipes-wall.webp"
                   alt="Handcrafted Pipes"
                   fill
                   className="object-cover"
@@ -340,7 +340,7 @@ export default function Home() {
             <div className="space-y-4 text-center">
               <div className="relative h-64 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pipe-tobacco-peter-stokkebye-DlAHuQmp8c7JvmwCpcy6IGr2XzJt8e.webp"
+                  src="/images/design-mode/pipe-tobacco-peter-stokkebye.webp"
                   alt="Fine Pipe Tobacco"
                   fill
                   className="object-cover"
@@ -355,7 +355,7 @@ export default function Home() {
             <div className="space-y-4 text-center">
               <div className="relative h-64 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-myfather-lapromesa-CXRk8XkUEGO6I3xFJV8mMSzPnalOQl.webp"
+                  src="/images/design-mode/cigar-myfather-lapromesa.webp"
                   alt="Hand-Rolled Cigars"
                   fill
                   className="object-cover"
@@ -370,7 +370,7 @@ export default function Home() {
             <div className="space-y-4 text-center">
               <div className="relative h-64 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/accessories-1-FpoEFLdZEgYIQhFVjXNYsMYcsStBN2.webp"
+                  src="/images/design-mode/accessories-1.webp"
                   alt="Accessories & Gifts"
                   fill
                   className="object-cover"
@@ -404,7 +404,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pipes-wall-FNT9XNkXyHcMGhNgRzAQJOyhlYRX2b.webp"
+                src="/images/design-mode/pipes-wall.webp"
                 alt="Premium Pipe Collection Display"
                 fill
                 className="object-cover"
@@ -412,7 +412,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/edwards-pipes-wall-TiZpZkn4r95xM0ZgvbspmDgTmRnKSh.webp"
+                src="/images/design-mode/edwards-pipes-wall.webp"
                 alt="Edward's Pipe Wall Display"
                 fill
                 className="object-cover"
@@ -431,7 +431,7 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="relative h-80 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/handmade-pipe-1-SoiMxUkzW8tuHcFtbZbWtSPCjBwKFL.webp"
+                  src="/images/design-mode/handmade-pipe-1.webp"
                   alt="Handcrafted Meerschaum Pipe with Lattice Design"
                   fill
                   className="object-cover"
@@ -439,7 +439,7 @@ export default function Home() {
               </div>
               <div className="relative h-80 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/handmade-pipe-2-ijoFrrB6WCoB1v9vKfLUckyOE7hLXx.webp"
+                  src="/images/design-mode/handmade-pipe-2.webp"
                   alt="Ornate Carved Meerschaum Pipe"
                   fill
                   className="object-cover"
@@ -447,7 +447,7 @@ export default function Home() {
               </div>
               <div className="relative h-80 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/handmade-pipe-3-zYn9nBs66Ooyv2H6VSqqpqYJGeWyDI.webp"
+                  src="/images/design-mode/handmade-pipe-3.webp"
                   alt="Estate Meerschaum Pipes in Case"
                   fill
                   className="object-cover"
@@ -460,7 +460,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-80 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/gordon-pipe-repair-dvUIvXwuMVOSqMNQgjtzQtoV1Yc7Mt.webp"
+                  src="/images/design-mode/gordon-pipe-repair.webp"
                   alt="Expert Pipe Repair Service"
                   fill
                   className="object-cover"
@@ -500,7 +500,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pipe-tobacco-peter-stokkebye-DlAHuQmp8c7JvmwCpcy6IGr2XzJt8e.webp"
+                src="/images/design-mode/pipe-tobacco-peter-stokkebye.webp"
                 alt="Peter Stokkebye Luxury Pipe Tobacco Blends"
                 fill
                 className="object-cover"
@@ -508,7 +508,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pipe-tobacco-bags-blwb-peaches-creme-DG438D27LBChCx0bp1SHiZHbZsEYvS.webp"
+                src="/images/design-mode/pipe-tobacco-bags-blwb-peaches-creme.webp"
                 alt="Specialty Pipe Tobacco Blends"
                 fill
                 className="object-cover"
@@ -551,7 +551,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/humidor-1-udSv0vBLKBmlU5aIxVgiDha1Z1GCmt.webp"
+                src="/images/design-mode/humidor-1.webp"
                 alt="Edward's Humidor - Main Room"
                 fill
                 className="object-cover"
@@ -559,7 +559,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/humidor-2-npJACCDMUmEYfrxUJEWFBA70sxfTch.webp"
+                src="/images/design-mode/humidor-2.webp"
                 alt="Edward's Humidor - Camacho Section"
                 fill
                 className="object-cover"
@@ -567,7 +567,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/humidor-3-qUiLnZ073QY0eLI5B5SV2H3GYT4Ni8.webp"
+                src="/images/design-mode/humidor-3.webp"
                 alt="Edward's Humidor - Climate Controlled Cabinet"
                 fill
                 className="object-cover"
@@ -575,7 +575,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/humidor-4-lLUol8S853Cyx61daDBEDHcS0Qb8iV.webp"
+                src="/images/design-mode/humidor-4.webp"
                 alt="Edward's Humidor - Store View"
                 fill
                 className="object-cover"
@@ -604,7 +604,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-montecristo-classic-F19otC9LRhHRyVHqENM0RuQtYg2O6C.webp"
+                  src="/images/design-mode/cigar-montecristo-classic.webp"
                   alt="Montecristo Classic Series"
                   fill
                   className="object-cover"
@@ -616,7 +616,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-lfd-30years-2mX0RAkAC3QoLim9KQoo4b4NLtyBO5.webp"
+                  src="/images/design-mode/cigar-lfd-30years.webp"
                   alt="La Flor Dominicana 30 Years"
                   fill
                   className="object-cover"
@@ -628,7 +628,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-epcarrillo-endure-H8XO2YVcIME8BfwGUolA5DVux7vM5D.webp"
+                  src="/images/design-mode/cigar-epcarrillo-endure.webp"
                   alt="EP Carrillo Endure"
                   fill
                   className="object-cover"
@@ -640,7 +640,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-westtampa-devilcrab-XzmxHw6Y6ePfWOn7VJvcdH8VwQlsJK.webp"
+                  src="/images/design-mode/cigar-westtampa-devilcrab.webp"
                   alt="West Tampa Devil Crab"
                   fill
                   className="object-cover"
@@ -652,7 +652,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-laaromadecuba-miamor-51wrfdULWUCxIdtlkhJ1QaUFsZdzef.webp"
+                  src="/images/design-mode/cigar-laaromadecuba-miamor.webp"
                   alt="La Aroma de Cuba Mi Amor"
                   fill
                   className="object-cover"
@@ -664,7 +664,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-newworld-decenio-ummQgmmPJJatU5PkBFjn54jtbCD5Vd.webp"
+                  src="/images/design-mode/cigar-newworld-decenio.webp"
                   alt="AJ Fernandez New World Decenio"
                   fill
                   className="object-cover"
@@ -676,7 +676,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-myfather-lapromesa-CXRk8XkUEGO6I3xFJV8mMSzPnalOQl.webp"
+                  src="/images/design-mode/cigar-myfather-lapromesa.webp"
                   alt="My Father La Promesa"
                   fill
                   className="object-cover"
@@ -688,7 +688,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-oliva-serievmelanio-3sYSn3mugJR8gtW9BtnIozGnq7zhiD.webp"
+                  src="/images/design-mode/cigar-oliva-serievmelanio.webp"
                   alt="Oliva Serie V Melanio"
                   fill
                   className="object-cover"
@@ -700,7 +700,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-oliva-serieg-xBNu9PwjguVNr3O9MenItEXyLsieNQ.webp"
+                  src="/images/design-mode/cigar-oliva-serieg.webp"
                   alt="Oliva Serie G"
                   fill
                   className="object-cover"
@@ -712,7 +712,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-myfather-lapromesa-CXRk8XkUEGO6I3xFJV8mMSzPnalOQl.webp"
+                  src="/images/design-mode/cigar-myfather-lapromesa.webp"
                   alt="EP Carrillo Encore"
                   fill
                   className="object-cover"
@@ -724,7 +724,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-room101-doomsayer-4RZYfM12j65KGVRHOIWU3H3ifEvn1P.webp"
+                  src="/images/design-mode/cigar-room101-doomsayer.webp"
                   alt="Room 101 Doomsayer"
                   fill
                   className="object-cover"
@@ -736,7 +736,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-lfd-andalusianbull-3ooy31mRgPF5xlhp7cQd6TTR8SMv5g.webp"
+                  src="/images/design-mode/cigar-lfd-andalusianbull.webp"
                   alt="La Flor Dominicana Andalusian Bull"
                   fill
                   className="object-cover"
@@ -748,7 +748,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-epcarrillo-newwave-IOrPAXbxRKLLVRITOiyckXRO4TdymA.webp"
+                  src="/images/design-mode/cigar-epcarrillo-newwave.webp"
                   alt="EP Carrillo New Wave"
                   fill
                   className="object-cover"
@@ -760,7 +760,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-punch-clasico-m21M1nmpJdxY6WlF3dZw9l1Ne5pfLN.webp"
+                  src="/images/design-mode/cigar-punch-clasico.webp"
                   alt="Punch Clasico"
                   fill
                   className="object-cover"
@@ -772,7 +772,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-room101-farce-nwBvl6HEazSYDHlSlmpGhdSzSnuNUG.webp"
+                  src="/images/design-mode/cigar-room101-farce.webp"
                   alt="Room 101 Farce"
                   fill
                   className="object-cover"
@@ -784,7 +784,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-fuente-rarepink-O0tpRz6BgbJHr1YXM0V5dgjtoyDR87.webp"
+                  src="/images/design-mode/cigar-fuente-rarepink.webp"
                   alt="Arturo Fuente Rare Pink"
                   fill
                   className="object-cover"
@@ -796,7 +796,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-perdomo-habano-DB5dB1XLODVUSaa3sJW6eyOXWtPRIR.webp"
+                  src="/images/design-mode/cigar-perdomo-habano.webp"
                   alt="Perdomo Habano"
                   fill
                   className="object-cover"
@@ -808,7 +808,7 @@ export default function Home() {
             <div className="space-y-3">
               <div className="relative h-72 rounded-sm overflow-hidden shadow-md hover:shadow-xl transition-shadow border-2 border-black outline outline-1 outline-[#ffff66]">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cigar-tatuaje-riservabroadleaf-fpYeDzh5aJGfnlQ6ITXamVUcjEfvxt.webp"
+                  src="/images/design-mode/cigar-tatuaje-riservabroadleaf.webp"
                   alt="Tatuaje Reserva Broadleaf"
                   fill
                   className="object-cover"
@@ -839,7 +839,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/accessories-1-FpoEFLdZEgYIQhFVjXNYsMYcsStBN2.webp"
+                src="/images/design-mode/accessories-1.webp"
                 alt="Tobacco Accessories Display"
                 fill
                 className="object-cover"
@@ -847,7 +847,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/accessories-2-8VZh2DhuhqJ5fvbOKA9rNQQC2ckD3y.webp"
+                src="/images/design-mode/accessories-2.webp"
                 alt="Vintage Tobacco Memorabilia and Accessories"
                 fill
                 className="object-cover"
@@ -886,7 +886,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lockers-wide-angle-8HPHQZPogeyi9nuAOgmBInOnoSWtua.webp"
+                src="/images/design-mode/lockers-wide-angle.webp"
                 alt="Vintage Locker Room at Edward's"
                 fill
                 className="object-cover"
@@ -894,7 +894,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lockers-angel-oliva-iii-CSxqMMavPSic11QfSlXQdFbVxO0hvc.webp"
+                src="/images/design-mode/lockers-angel-oliva-iii.webp"
                 alt="Private Lockers with Brass Nameplates"
                 fill
                 className="object-cover"
@@ -935,7 +935,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/event-ashton-HEGQRxEP3V98HjquTu5h6U32xS9FOE.webp"
+                src="/images/design-mode/event-ashton.webp"
                 alt="Ashton Cigar Event"
                 fill
                 className="object-cover"
@@ -943,7 +943,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/event-la-aroma-de-cuba-v7cynJT7MEJztrPhYXohiyFhDY2xn8.webp"
+                src="/images/design-mode/event-la-aroma-de-cuba.webp"
                 alt="La Aroma de Cuba Event"
                 fill
                 className="object-cover"
@@ -963,7 +963,7 @@ export default function Home() {
           <div className="bg-secondary p-8 rounded-sm border-2 border-black outline outline-1 outline-[#ffff66]">
             <div className="relative h-96 mb-6 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/friday-night-crowd-5IjiP69Nt7WOE7wUeryTzdzAtSLroE.webp"
+                src="/images/design-mode/friday-night-crowd.webp"
                 alt="Friday Night Crowd at Edward's"
                 fill
                 className="object-cover"
@@ -998,7 +998,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/back-room-UQcUrfzjdD8I4LhcZQJVHDVYOB8hdT.webp"
+                src="/images/design-mode/back-room.webp"
                 alt="The Back Room at Edward's Pipe & Tobacco"
                 fill
                 className="object-cover"
@@ -1006,7 +1006,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/back-room-gordon-nimish-VjPKow3RPveBA7KyX6XBLQwsRc12vW.webp"
+                src="/images/design-mode/back-room-gordon-nimish.webp"
                 alt="Gordon and Nimish from Rocky Patel"
                 fill
                 className="object-cover"
@@ -1047,7 +1047,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/patio-football-tv-lbAMh1IOiCKpdd2s50ben5SHffr33M.webp"
+                src="/images/design-mode/patio-football-tv.webp"
                 alt="Patio with TV for watching sports"
                 fill
                 className="object-cover"
@@ -1055,7 +1055,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-sm overflow-hidden shadow-lg border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/patio-grill-sausages-YF9b2ypo6oVlEyjwI0AgMj8bNq1rEI.webp"
+                src="/images/design-mode/patio-grill-sausages.webp"
                 alt="Patio grill with sausages"
                 fill
                 className="object-cover"
@@ -1079,7 +1079,7 @@ export default function Home() {
       <section aria-labelledby="heritage-heading" className="relative py-20 px-4">
         <div className="absolute inset-0 z-0" aria-hidden="true">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bar-desk-behind-supplies-bxqN55rmL1Lwo9qWtbyJ5tK219cZ4J.webp"
+            src="/images/design-mode/bar-desk-behind-supplies.webp"
             alt="Edward's Counter Background"
             fill
             className="object-cover"
@@ -1095,7 +1095,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             <div className="relative h-80 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/letter-president-gerald-ford-AMYMotrlXHD9j94f1DD3rE4D3KG8BR.webp"
+                src="/images/design-mode/letter-president-gerald-ford.webp"
                 alt="Letter from President Gerald Ford"
                 fill
                 className="object-cover"
@@ -1103,7 +1103,7 @@ export default function Home() {
             </div>
             <div className="relative h-80 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/certificate-jc-newman-6Gl8Xkou6iTR3RCqLYUJsCBzTQIfUM.webp"
+                src="/images/design-mode/certificate-jc-newman.webp"
                 alt="J.C. Newman Cigar Connoisseurs Club Partner Certificate"
                 fill
                 className="object-cover"
@@ -1111,7 +1111,7 @@ export default function Home() {
             </div>
             <div className="relative h-80 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/recognition-fuente-opusx-pllqjZdLlR5q8VAoDH20nxBilFvipJ.webp"
+                src="/images/design-mode/recognition-fuente-opusx.webp"
                 alt="Fuente Fuente OpusX Authorized Purveyor Recognition"
                 fill
                 className="object-cover"
@@ -1139,7 +1139,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="relative h-80 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/commendation-tampa-city-council-I7A70nGhAcjckJOCKfyuKUVwUjh9x4.webp"
+                src="/images/design-mode/commendation-tampa-city-council.webp"
                 alt="Tampa City Council Commendation"
                 fill
                 className="object-cover"
@@ -1147,7 +1147,7 @@ export default function Home() {
             </div>
             <div className="relative h-80 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/autograph-marvin-shanks-DzescPpzwPI4N86EgsMFVvMu1HCXNi.webp"
+                src="/images/design-mode/autograph-marvin-shanks.webp"
                 alt="Autographed Magazine Article with Marvin Shanks"
                 fill
                 className="object-cover"
@@ -1155,7 +1155,7 @@ export default function Home() {
             </div>
             <div className="relative h-80 rounded-sm overflow-hidden shadow-md border-2 border-black outline outline-1 outline-[#ffff66]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/award-pioneer-davidoff-g4r8OhPxVAyAWiBFqlzn5Uqujlx7cJ.webp"
+                src="/images/design-mode/award-pioneer-davidoff.webp"
                 alt="Zino Davidoff Pioneer Award"
                 fill
                 className="object-cover"
@@ -1177,13 +1177,6 @@ export default function Home() {
             years. Stop by, relax in our comfortable lounge, and discover why generations of customers have made us
             their home away from home.
           </p>
-          <a
-            href="#top"
-            onClick={handleScrollToTop}
-            className="absolute bottom-0 right-0 text-muted-foreground hover:text-[#ffff66] transition-colors text-sm underline"
-          >
-            Back to Top
-          </a>
         </div>
       </section>
 
