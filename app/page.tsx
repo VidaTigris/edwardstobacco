@@ -20,7 +20,10 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-background">
-      <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-sm border-b border-[#ffff66]/20 h-10">
+      <nav
+        aria-label="Main navigation"
+        className="sticky top-0 z-50 bg-black/95 backdrop-blur-sm border-b border-[#ffff66]/20 h-10"
+      >
         <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
           <div className="h-8">
             <Image
@@ -90,6 +93,7 @@ export default function Home() {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden text-white hover:text-[#ffff66] transition-colors"
             aria-label="Toggle menu"
+            aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -154,9 +158,12 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20">
+      <section
+        aria-label="Welcome to Edward's Pipe & Tobacco"
+        className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20"
+      >
         {/* Background Image */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0" aria-hidden="true">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cash-register-counter-0SHloWSMFEia3POBmeHScW5biok8ur.webp"
             alt="Edward's Pipe & Tobacco Store"
@@ -212,11 +219,11 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* About Section */}
-      <section id="about" className="py-20 px-4 bg-card">
+      <section id="about" aria-labelledby="about-heading" className="py-20 px-4 bg-card">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">
+              <h2 id="about-heading" className="font-serif text-4xl md:text-5xl text-foreground text-balance">
                 Over 60 Years of Tradition
               </h2>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
@@ -250,9 +257,12 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* Friendly Atmosphere Section */}
-      <section className="py-20 px-4">
+      <section aria-labelledby="atmosphere-heading" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">
+          <h2
+            id="atmosphere-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
             Friendly Atmosphere & Knowledgeable Staff
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
@@ -294,9 +304,12 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* Products Section */}
-      <section className="py-20 px-4 bg-[#8B4513]/10">
+      <section aria-labelledby="products-heading" className="py-20 px-4 bg-[#8B4513]/10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-16 text-balance">
+          <h2
+            id="products-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-16 text-balance"
+          >
             Our Products & Services
           </h2>
 
@@ -368,9 +381,12 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* Our Handcrafted Pipes Section */}
-      <section id="pipes" className="py-20 px-4 bg-card">
+      <section id="pipes" aria-labelledby="pipes-heading" className="py-20 px-4 bg-card">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">
+          <h2
+            id="pipes-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
             Our Handcrafted Pipes
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
@@ -460,9 +476,12 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* Our Pipe Tobacco Section */}
-      <section id="pipe-tobacco" className="py-20 px-4">
+      <section id="pipe-tobacco" aria-labelledby="pipe-tobacco-heading" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">
+          <h2
+            id="pipe-tobacco-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
             Our Pipe Tobacco
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-3xl mx-auto">
@@ -509,9 +528,14 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* Our Humidor Section */}
-      <section id="cigars" className="py-20 px-4 bg-[#8B4513]/10">
+      <section id="cigars" aria-labelledby="humidor-heading" className="py-20 px-4 bg-[#8B4513]/10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">Our Humidor</h2>
+          <h2
+            id="humidor-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
+            Our Humidor
+          </h2>
           <p className="text-center text-muted-foreground text-lg mb-16 max-w-2xl mx-auto">
             Step inside our climate-controlled humidor and discover an impressive selection of premium cigars from
             around the world for every cigar enthusiast.
@@ -557,9 +581,12 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* Featured Cigars Section */}
-      <section className="py-20 px-4 bg-card">
+      <section aria-labelledby="featured-cigars-heading" className="py-20 px-4 bg-card">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">
+          <h2
+            id="featured-cigars-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
             Featured Premium Cigars
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-16 max-w-2xl mx-auto">
@@ -789,9 +816,12 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* Our Tobacco Accessories & Gifts Section */}
-      <section id="accessories" className="py-20 px-4">
+      <section id="accessories" aria-labelledby="accessories-heading" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">
+          <h2
+            id="accessories-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
             Our Tobacco Accessories & Gifts
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
@@ -833,9 +863,12 @@ export default function Home() {
 
       <div className="border-t border-[#4a3728]" />
 
-      <section className="py-20 px-4 bg-card">
+      <section aria-labelledby="lockers-heading" className="py-20 px-4 bg-card">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">
+          <h2
+            id="lockers-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
             Private Vintage Lockers at Edward's
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
@@ -878,9 +911,12 @@ export default function Home() {
 
       <div className="border-t border-[#4a3728]" />
 
-      <section id="events" className="py-20 px-4">
+      <section id="events" aria-labelledby="events-heading" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">
+          <h2
+            id="events-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
             Tampa Cigar Events
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-3xl mx-auto">
@@ -939,9 +975,12 @@ export default function Home() {
 
       <div className="border-t border-[#4a3728]" />
 
-      <section className="py-20 px-4 bg-card">
+      <section aria-labelledby="back-room-heading" className="py-20 px-4 bg-card">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">
+          <h2
+            id="back-room-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
             Our Back Room
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
@@ -971,8 +1010,8 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto">
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
               The back room features comfortable leather seating, wood-paneled walls adorned with cigar memorabilia, and
-              a relaxed atmosphere perfect for conversation and contemplation. Perfect for those looking for a peaceful
-              retreat during the week or joining the Friday night festivities.
+              a relaxed atmosphere perfect for contemplation. Perfect for those looking for a peaceful retreat during
+              the week or joining the Friday night festivities.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               We're honored to host visits from industry leaders like Nimish from Rocky Patel, pictured here with Gordon
@@ -985,9 +1024,12 @@ export default function Home() {
 
       <div className="border-t border-[#4a3728]" />
 
-      <section className="py-20 px-4">
+      <section aria-labelledby="patio-heading" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance">
+          <h2
+            id="patio-heading"
+            className="font-serif text-4xl md:text-5xl text-center text-foreground mb-6 text-balance"
+          >
             Our Back Patio
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
@@ -1027,8 +1069,8 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* Heritage Section */}
-      <section className="relative py-20 px-4">
-        <div className="absolute inset-0 z-0">
+      <section aria-labelledby="heritage-heading" className="relative py-20 px-4">
+        <div className="absolute inset-0 z-0" aria-hidden="true">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bar-desk-behind-supplies-bxqN55rmL1Lwo9qWtbyJ5tK219cZ4J.webp"
             alt="Edward's Counter Background"
@@ -1039,7 +1081,7 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 max-w-6xl mx-auto">
-          <h2 className="font-serif text-4xl md:text-5xl text-left text-white mb-16 text-balance">
+          <h2 id="heritage-heading" className="font-serif text-4xl md:text-5xl text-left text-white mb-16 text-balance">
             A Legacy of Excellence
           </h2>
 
@@ -1118,9 +1160,9 @@ export default function Home() {
 
       <div className="border-t border-[#4a3728]" />
 
-      <section className="py-20 px-4 bg-card">
+      <section aria-labelledby="visit-heading" className="py-20 px-4 bg-card">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-balance">
+          <h2 id="visit-heading" className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-balance">
             Come Visit Us at Edward's
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
@@ -1134,14 +1176,14 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       {/* Footer */}
-      <footer id="contact" className="bg-black text-white py-16 px-4">
+      <footer id="contact" aria-label="Contact information and site footer" className="bg-black text-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-12">
             <div className="space-y-4">
               <h3 className="font-serif text-2xl mb-4">Visit Us</h3>
-              <div className="space-y-3 text-gray-300">
+              <address className="space-y-3 text-gray-300 not-italic">
                 <p className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 flex-shrink-0 mt-1" />
+                  <MapPin className="w-5 h-5 flex-shrink-0 mt-1" aria-hidden="true" />
                   <span>
                     3235 Henderson Blvd
                     <br />
@@ -1149,37 +1191,37 @@ export default function Home() {
                   </span>
                 </p>
                 <p className="flex items-center gap-3">
-                  <Phone className="w-5 h-5 flex-shrink-0" />
+                  <Phone className="w-5 h-5 flex-shrink-0" aria-hidden="true" />
                   <a href="tel:8138720723" className="hover:text-[#ffff66] transition-colors">
                     (813) 872-0723
                   </a>
                 </p>
-                <div className="flex items-center gap-4 pt-2">
-                  <a
-                    href="https://www.facebook.com/profile.php?id=61578307895712"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-[#ffff66] transition-colors"
-                    aria-label="Visit our Facebook page"
-                  >
-                    <Facebook className="w-6 h-6" />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/edwardstampa/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-[#ffff66] transition-colors"
-                    aria-label="Visit our Instagram page"
-                  >
-                    <Instagram className="w-6 h-6" />
-                  </a>
-                </div>
+              </address>
+              <div className="flex items-center gap-4 pt-2" aria-label="Social media links">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61578307895712"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#ffff66] transition-colors"
+                  aria-label="Visit our Facebook page"
+                >
+                  <Facebook className="w-6 h-6" />
+                </a>
+                <a
+                  href="https://www.instagram.com/edwardstampa/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#ffff66] transition-colors"
+                  aria-label="Visit our Instagram page"
+                >
+                  <Instagram className="w-6 h-6" />
+                </a>
               </div>
             </div>
 
             <div className="space-y-4">
               <h3 className="font-serif text-2xl mb-4">Hours</h3>
-              <div className="space-y-2 text-gray-300">
+              <div className="space-y-2 text-gray-300" aria-label="Store hours">
                 <p>Monday - Thursday: 8am - 7pm</p>
                 <p>Friday: 8am - 11pm</p>
                 <p>Saturday: 8am - 6pm</p>
