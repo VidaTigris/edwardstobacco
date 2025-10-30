@@ -202,10 +202,10 @@ export default function Home() {
             Supplying Pipes, Tobacco, Cigars, Smokers Accessories and Gift Items for over six decades
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="tel:8138720723"
-              className="inline-flex items-center gap-2 px-6 py-2 bg-[#ffff66] text-black font-serif text-xl font-semibold border-4 border-[#c73426] shadow-[0_0_0_4px_black] hover:shadow-[0_0_0_5px_black] transition-all"
+              className="inline-flex items-center gap-2 px-6 py-2 bg-[#ffff66] text-black font-serif text-xl font-bold border-4 border-[#c73426] shadow-[0_0_0_4px_black] hover:shadow-[0_0_0_5px_black] transition-all"
             >
               <Phone className="w-5 h-5" />
               Call Us
@@ -214,7 +214,7 @@ export default function Home() {
               href="https://maps.app.goo.gl/cw4pC4f647NNrs4p9"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-2 bg-[#ffff66] text-black font-serif text-xl font-semibold border-4 border-[#c73426] shadow-[0_0_0_4px_black] hover:shadow-[0_0_0_5px_black] transition-all"
+              className="inline-flex items-center gap-2 px-6 py-2 bg-[#ffff66] text-black font-serif text-xl font-bold border-4 border-[#c73426] shadow-[0_0_0_4px_black] hover:shadow-[0_0_0_5px_black] transition-all"
             >
               <MapPin className="w-5 h-5" />
               Get Directions
