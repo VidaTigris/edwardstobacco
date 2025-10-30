@@ -165,7 +165,7 @@ export default function Home() {
       {/* Hero Section */}
       <section
         aria-label="Welcome to Edward's Pipe & Tobacco"
-        className="relative min-h-[640px] lg:min-h-screen flex flex-col items-center justify-center px-4 py-20"
+        className="relative min-h-[640px] flex flex-col items-center justify-center px-4 py-20"
       >
         {/* Background Image */}
         <div className="absolute inset-0 z-0" aria-hidden="true">
