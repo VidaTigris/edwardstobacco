@@ -173,6 +173,8 @@ export default function Home() {
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cash-register-counter-0SHloWSMFEia3POBmeHScW5biok8ur.webp"
             alt="Edward's Pipe & Tobacco Store"
             fill
+            width={1200}
+            height={900}
             className="object-cover"
             priority
           />
@@ -181,22 +183,22 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
-          <div className="mb-8">
+          <div className="mb-4 md:mb-8">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HpxPFQUS0FCpA8iIF9ylWEIxZ1FCqB.webp"
               alt="Edward's Pipe & Tobacco Logo"
               width={280}
               height={280}
-              className="mx-auto w-[220px] md:w-[280px] h-auto"
+              className="mx-auto w-[160px] md:w-[280px] h-auto"
               priority
             />
           </div>
 
-          <h1 className="font-serif text-4xl md:text-5xl text-white leading-tight text-balance">
+          <h1 className="font-serif text-4xl md:text-5xl text-white leading-tight text-balance mb-4 md:mb-8">
             A Tampa Landmark Since 1960
           </h1>
 
-          <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto text-pretty">
+          <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto text-pretty mb-4 md:mb-8">
             Supplying Pipes, Tobacco, Cigars, Smokers Accessories and Gift Items for over six decades
           </p>
 
