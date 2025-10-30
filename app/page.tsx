@@ -18,6 +18,11 @@ export default function Home() {
     setMobileMenuOpen(false)
   }
 
+  const handleScrollToTop = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
+
   return (
     <main className="min-h-screen bg-background">
       <nav
@@ -25,7 +30,7 @@ export default function Home() {
         className="sticky top-0 z-50 bg-black/95 backdrop-blur-sm border-b border-[#ffff66]/20 h-10"
       >
         <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
-          <div className="h-8">
+          <a href="/" onClick={handleScrollToTop} className="h-8" aria-label="Edward's Pipe & Tobacco Home">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HpxPFQUS0FCpA8iIF9ylWEIxZ1FCqB.webp"
               alt="Edward's Logo"
@@ -33,7 +38,7 @@ export default function Home() {
               height={32}
               className="h-full w-auto"
             />
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex gap-6 text-sm">
@@ -1161,7 +1166,7 @@ export default function Home() {
       <div className="border-t border-[#4a3728]" />
 
       <section aria-labelledby="visit-heading" className="py-20 px-4 bg-card">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center relative">
           <h2 id="visit-heading" className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-balance">
             Come Visit Us at Edward's
           </h2>
@@ -1170,6 +1175,13 @@ export default function Home() {
             years. Stop by, relax in our comfortable lounge, and discover why generations of customers have made us
             their home away from home.
           </p>
+          <a
+            href="#top"
+            onClick={handleScrollToTop}
+            className="absolute bottom-0 right-0 text-muted-foreground hover:text-[#ffff66] transition-colors text-sm underline"
+          >
+            Back to Top
+          </a>
         </div>
       </section>
 
@@ -1247,7 +1259,21 @@ export default function Home() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Edward's Pipe & Tobacco. A Tradition Since 1960.</p>
+            <p>
+              &copy; {new Date().getFullYear()} Edward's Pipe & Tobacco. A Tradition Since 1960.{" "}
+              <span className="inline-block">
+                Website by{" "}
+                <a
+                  href="https://vidatigris.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#ffff66] transition-colors underline"
+                >
+                  Vida Tigris
+                </a>
+                .
+              </span>
+            </p>
           </div>
         </div>
       </footer>
