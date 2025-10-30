@@ -22,7 +22,36 @@ export const metadata = {
   description:
     "Supplying Pipes, Tobacco, Cigars, Smokers Accessories and Gift Items since 1960. Visit our Tampa location at 3235 Henderson Blvd.",
   icons: {
-    icon: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-square-QvThFCKnQoqBUVDJVEv4z4gzPFwug4.png",
+    icon: [
+      {
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/favicon.ico-wC1MZURAmoGWTIxF9PDHMsPXErH6zT.x-icon",
+      },
+      {
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/favicon-16x16-m6KLmyWl6XiHtlF1vCJEDJ3ggaeWfc.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+      {
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/favicon-32x32-mI33T03hI7MOrXdEmXEIqKqqaVx311.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+    ],
+    apple: {
+      url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/apple-touch-icon-3VQt7pQEDBFc6GWWjvDKBffxZKFulA.png",
+      sizes: "180x180",
+      type: "image/png",
+    },
+    other: [
+      {
+        rel: "android-chrome-192x192",
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/android-chrome-192x192-cFf2tRrcpzClCWwrQajXT6kh442TlT.png",
+      },
+      {
+        rel: "android-chrome-512x512",
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/android-chrome-512x512-DuSKH5KLPQZ19vWDNagsAbeAm1cz7y.png",
+      },
+    ],
   },
     generator: 'v0.app'
 }
