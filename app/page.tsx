@@ -1222,10 +1222,18 @@ export default function Home() {
             <div className="space-y-4">
               <h3 className="font-serif text-2xl mb-4">Hours</h3>
               <div className="space-y-2 text-gray-300" aria-label="Store hours">
-                <p>Monday - Thursday: 8am - 7pm</p>
-                <p>Friday: 8am - 11pm</p>
-                <p>Saturday: 8am - 6pm</p>
-                <p>Sunday: 11am - 5pm</p>
+                <p>
+                  <time dateTime="Mo-Th 08:00-19:00">Monday - Thursday: 8am - 7pm</time>
+                </p>
+                <p>
+                  <time dateTime="Fr 08:00-23:00">Friday: 8am - 11pm</time>
+                </p>
+                <p>
+                  <time dateTime="Sa 08:00-18:00">Saturday: 8am - 6pm</time>
+                </p>
+                <p>
+                  <time dateTime="Su 11:00-17:00">Sunday: 11am - 5pm</time>
+                </p>
               </div>
             </div>
 
